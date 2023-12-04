@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #27207d;
+    background-color: #1c2845;
 }
 
 header {
@@ -204,6 +204,7 @@ header {
 .about-text p {
     font-size: 20px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .servics h1 {
@@ -212,29 +213,86 @@ header {
     align-items: center;
     font-size: 60px;
     font-weight: 800;
-    gap: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
+    animation: slideTop 1s ease forwards
 }
 
 .servics h1 span {
     color: red;
+    margin-left: 15px;
 }
 
 .services-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
-    width: 200px;
-
+    gap: 40px;
+    margin-top: 50px;
 }
 
-.contain-box p{
+.contain-box {
+    margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 30px #114edb;
+}
+
+.contain-box i {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 500px;
-    border: 10px solid red;
+    font-size: 40px;
+}
+
+.contain-box p {
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.contain-box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+.contain-box a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.contain-box a{ 
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 5px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        border: 3px solid #2cde;
+        background-color: #2cde;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+        color: black;
+        animation: slideBottom .5s ease forwards;
+    }
+
+    .contain-box a:hover {
+        background-color: #2cde;
+        color: white;
+        box-shadow: 0 0 20px #2cde
+    }
+.skill{
+    margin-top: 20px;
+    background-color: white;
 }
 
 
