@@ -294,6 +294,32 @@ header {
     margin-top: 20px;
     background-color: white;
 }
+.bar i{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.skill h1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+.skill h1 span{
+    
+    margin-left: 15px;
+    color: red;
+}
+.bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+.info span{
+    margin-left: 40px;
+}
 
 
 
