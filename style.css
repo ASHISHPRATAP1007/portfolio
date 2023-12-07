@@ -321,8 +321,6 @@ header {
     margin-left: 40px;
 }
 
-
-
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
