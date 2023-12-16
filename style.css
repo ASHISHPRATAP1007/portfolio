@@ -270,56 +270,200 @@ header {
     text-decoration: none;
     margin-top: 10px;
 }
-.contain-box a{ 
-        margin-top: 20px;
-        font-size: 15px;
-        padding: 5px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        border: 3px solid #2cde;
-        background-color: #2cde;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100px;
-        color: black;
-        animation: slideBottom .5s ease forwards;
-    }
 
-    .contain-box a:hover {
-        background-color: #2cde;
-        color: white;
-        box-shadow: 0 0 20px #2cde
-    }
-.skill{
+.contain-box a {
     margin-top: 20px;
-    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 3px solid #2cde;
+    background-color: #2cde;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    color: black;
+    animation: slideBottom .5s ease forwards;
 }
-.bar i{
-    margin-top: 20px;
-    font-size: 50px;
+
+.contain-box a:hover {
+    background-color: #2cde;
+    color: white;
+    box-shadow: 0 0 20px #2cde
 }
-.skill h1{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.skill-title {
+    margin-top: 40px;
+    padding: 10px;
+    /* background-color: white; */
+}
+
+.skill-title h1 {
     font-size: 60px;
     font-weight: 800;
 }
-.skill h1 span{
-    
-    margin-left: 15px;
-    color: red;
-}
-.bar{
+
+.heading-skill {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+}
+
+.heading-skill span {
+    color: red;
     margin-left: 10px;
 }
-.info span{
-    margin-left: 40px;
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white; */
 }
+
+.technical-skill {
+    width: 600px;
+    height: 500px;
+    padding: 70px 60px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+
+}
+
+.heading-technical-skill {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.bar {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.technical-bar .bar {
+    margin-top: 40px 0px;
+}
+
+.technical-bar .bar:first-child {
+    margin-top: 0px;
+}
+
+.technical-bar .bar .info {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.container-info {
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: rgb(148, 143, 143);
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.progress-bar div span{
+    font-size: 15px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: white;
+    float:right;
+    margin-top: -18px;
+    margin-right: -20px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    background-color: #a0540e;
+    animation: html 2s linear forwards;
+}
+.css{
+    background-color: #0fa4be;
+    animation: css 1s linear forwards;
+}
+.js{
+    background-color: #b8ac0d;
+    animation: js 1s linear forwards;
+}
+
+.react{
+    background-color: #9a06ad;
+    animation: react 1s linear forwards;
+}
+.bootstrap{
+    background-color: #044ea1;
+    animation: bootstrap 1s linear forwards;
+}
+.git{
+    background-color: #000203;
+    animation: git 1s linear forwards;
+}
+.html span{
+    border: 2px solid #a0540e;
+}
+.css span{
+    border: 2px solid #059797;
+}
+.js span{
+    border: 2px solid #a9ac04;
+}
+.react span{
+    border: 2px solid #0554af;
+}
+.bootstrap span{
+    border: 2px solid #59036e;
+}
+.git span{
+    border: 2px solid #000000;
+}
+@keyframes html {
+    100%{
+        width: 86%;
+    }
+}
+@keyframes css {
+    100%{
+        width: 60%;
+    }
+}
+@keyframes js {
+    100%{
+        width: 45%;
+    }
+}
+@keyframes react {
+    100%{
+        width: 30%;
+    }
+}
+@keyframes bootstrap {
+    100%{
+        width: 70%;
+    }
+}
+@keyframes git {
+    100%{
+        width: 75%;
+    }
+}
+
+
+
+
 
 @keyframes slideRight {
     0% {
